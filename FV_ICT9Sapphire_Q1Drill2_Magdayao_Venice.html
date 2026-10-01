@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Q1 Drill 2</title>
+    <style>
+section{
+    background-color: rgb(247, 232, 200);
+    padding: 20px;
+    border-radius: 12px;
+    width: 600px;
+    margin: auto;
+    box-shadow: 0 4px 10px rgba(133, 92, 92, 0.1);
+}
+h1,p{
+    text-align: center;
+}
+body, #submit, #movie, #review{
+    font-family: 'Special Eite', 'Abril Fatface', serif;
+}
+input[type="text"], select, textarea, button{
+    width: 94%;
+    padding: 15px;
+    border: 1px solid #ccc(23, 172, 172);
+    border-radius: 5px;
+    text-align: center;
+}
+#review{
+    width: 4; height: 60px;
+}
+body{
+    background-color: rgb(61, 4, 4);
+}
+
+    </style>
+</head>
+<body> 
+    <header style="color: rgb(246, 183, 25);"> 
+        <h1>MOVIE RATING</h1> 
+        <p>Loved the movie? Tell us what you think through the rating form below!</p>
+    </header>
+<br>
+<section>
+<form>
+    <img style="display: block; height: 250px; width: 265px; margin: 0 auto;" src="https://static.vecteezy.com/system/resources/thumbnails/051/217/663/small/popcorn-and-cinema-glasses-png.png" alt="movie logo">
+<br>
+<style> 
+    label[for="movie"] {
+        text-decoration: underline;
+    }
+
+#movie {
+    padding: 10px;
+    width: 300px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+</style>
+
+<label for="movie">Movie Title</label>
+<br>
+
+<input type="text" id="movie" name="movie" placeholder="Type here..."> 
+
+<br>
+<br>
+<label for="genre" class="genre-title" style="text-decoration: underline;">Genre</label>
+<br>
+
+<input type="checkbox" id="genre1" name="genre1">
+    <label for="genre1">Action</label>
+<input type="checkbox" id="genre2" name="genre2">
+    <label for="genre2">Romance</label>
+<input type="checkbox" id="genre3" name="genre3">
+    <label for="genre3">Comedy</label>
+<input type="checkbox" id="genre4" name="genre4">
+    <label for="genre4">Horror</label>
+<input type="checkbox" id="genre5" name="genre5">
+    <label for="genre5">Action</label>
+    <br>
+<input type="checkbox" id="genre6" name="genre6">
+    <label for="genre6">Sci-Fi</label>
+<input type="checkbox" id="genre7" name="genre7">
+    <label for="genre7">Documenary</label>
+<input type="checkbox" id="genre8" name="genre8">
+    <label for="genre8">Historical</label>
+<input type="checkbox" id="genre9" name="genre9">
+    <label for="genre9">Animation</label>
+<input type="checkbox" id="genre10" name="genre10">
+    <label for="genre10">RomCom</label>
+<br>
+<br>
+<label for="rate" class="rate-title" style="text-decoration: underline;">Rating</label>
+    <br>
+<input type="radio" id="rate1" name="rate">
+    <label for="rate">⭐</label>
+<input type="radio" id="rate2" name="rate">
+    <label for="rate">⭐⭐</label>
+<input type="radio" id="rate3" name="rate">
+    <label for="rate">⭐⭐⭐</label>
+<input type="radio" id="rate4" name="rate">
+    <label for="rate">⭐⭐⭐⭐</label> 
+<input type="radio" id="rate5" name="rate">
+    <label for="rate">⭐⭐⭐⭐⭐</label>
+
+    <br>
+    <br>
+
+    <input type="text" id="review" name="review" placeholder="Write a review...">
+<style>
+#review {
+  border: none;
+  outline: none;
+}
+</style>
+    <br>
+    <br>
+    <input type="submit" id="submit" value="Submit Review">
+    <br>
+    <br>
+    Click <a href="https://www.imdb.com/list/ls528440169/?ref_=ext_shr_lnk" target="_blank">here</a> to discover the best movies of 2026 that you won't want to miss!
+</section>
+</form>
+</body>
+</html> 
